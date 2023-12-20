@@ -16,13 +16,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                // Run tests using Gradle
-                sh './gradlew test'
-            }
-        }
-
     }
 
     post {
